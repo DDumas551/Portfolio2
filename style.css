@@ -1,0 +1,62 @@
+@font-face {
+    font-family: profileFont;
+    src: url("./font/vonique-64/Vonique\ 64.ttf")
+}
+
+@font-face {
+    font-family: regularFont;
+    src: url("./font/Montserrat/Montserrat-Regular.ttf  ")
+}
+
+.bodyContainer {
+    border: 6px solid rgba(0, 0, 0, 0.726);
+    background-color: rgba(0, 0, 0, 0.726);
+    min-height: 100vh;
+}
+
+.nameCol {
+    margin-top: 17vh;
+    font-size: 39px;
+    font-family: profileFont;
+    letter-spacing: 130px;
+    color: rgba(255, 255, 255, 0);
+}
+
+.nameColOnLoad {
+    letter-spacing: 40px;
+    transition-duration: 2.5s;
+    color: rgba(255, 255, 255, 0.999)
+}
+
+.intro1 {
+    color: rgba(255, 255, 255, 0);
+    font-size: 13px;
+}
+
+.intro2 {
+    color: rgba(255, 255, 255, 0);
+    font-size: 13px;
+}
+
+.intro11 {
+    color: rgba(255, 255, 255, 0.999);
+    font-family: regularFont;
+    font-size: 13px;
+    transition-duration: 2.4s;
+}
+
+.intro22 {
+    color: rgba(255, 255, 255, 0.999);
+    font-family: regularFont;
+    font-size: 13px;
+    transition-duration: 2.4s;
+}
+
+.hr1 {
+    top: 2vw;
+}
+
+hr {
+    border-color: rgba(255, 255, 255, 0.999);
+    max-width: 50vw;
+}
