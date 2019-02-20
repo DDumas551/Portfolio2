@@ -5,7 +5,11 @@
 
 @font-face {
     font-family: regularFont;
-    src: url("./font/Montserrat/Montserrat-Regular.ttf  ")
+    src: url("./font/Montserrat/Montserrat-Light.ttf")
+}
+
+p {
+    margin-bottom: 3rem;
 }
 
 .bodyContainer {
@@ -18,7 +22,7 @@
     margin-top: 17vh;
     font-size: 39px;
     font-family: profileFont;
-    letter-spacing: 130px;
+    letter-spacing: 100px;
     color: rgba(255, 255, 255, 0);
 }
 
@@ -53,10 +57,49 @@
 }
 
 .hr1 {
-    top: 2vw;
+    top: 2vh;
+    border-color: rgba(255, 255, 255, 0);
+    max-width: 1vw;
 }
 
-hr {
+.hr2 {
+    top: 2vh;
     border-color: rgba(255, 255, 255, 0.999);
-    max-width: 50vw;
+    max-width: 45vw;
+    transition-duration: 2.5s;
+}
+
+.knowledge1 {
+    font-family: regularFont;
+    color: rgba(255, 255, 255, 0);
+    font-size: 12px;
+}
+
+.knowledge2 {
+    font-family: regularFont;
+    color: rgba(255, 255, 255, 0);
+    font-size: 12px;
+}
+
+.knowledgeOnLoad1 {
+    color: rgba(255, 255, 255, 0.999);
+    transition-duration: 1.5s;
+}
+
+.knowledgeOnLoad2 {
+    color: rgba(255, 255, 255, 0.999);
+    transition-duration: 1.5s;
+}
+
+.bottomRow {
+    color: rgba(255, 255, 255, 0);
+    font-family: regularFont;
+    font-size: 12px;
+    position: relative;
+    top: 1vh;
+}
+
+.bottomRowOnLoad {
+    color: rgba(255, 255, 255, 0.999);
+    transition-duration: 1.5s;
 }
