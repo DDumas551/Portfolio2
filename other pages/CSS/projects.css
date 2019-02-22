@@ -1,0 +1,28 @@
+@font-face {
+    font-family: profileFont;
+    src: url("./font/vonique-64/Vonique\ 64.ttf")
+}
+
+@font-face {
+    font-family: regularFont;
+    src: url("./font/Montserrat/Montserrat-Light.ttf")
+}
+
+.bodyContainer {
+    border: 6px solid rgba(0, 0, 0, 0.726);
+    background-color: rgba(0, 0, 0, 0.726);
+    min-height: 100vh;
+}
+
+.bottomRow {
+    color: rgba(255, 255, 255, 0);
+    font-family: regularFont;
+    font-size: 12px;
+    position: relative;
+    top: 1vh;
+}
+
+.bottomRowOnLoad {
+    color: rgba(255, 255, 255, 0.999);
+    transition-duration: 1.5s;
+}
