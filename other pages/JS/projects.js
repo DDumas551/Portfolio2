@@ -1,7 +1,8 @@
 $(document).ready(()=> {
     setTimeout(() => {
+        $(".nameCol").addClass("nameColOnLoad");
+    }, 400 );
+    setTimeout(() => {
         $(".bottomRow").addClass("bottomRowOnLoad");
-    }, 2100 );
+    }, 1000 );
 });
-
-

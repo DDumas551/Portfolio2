@@ -6,3 +6,5 @@ $(document).ready(()=> {
         $(".bottomRow").addClass("bottomRowOnLoad");
     }, 1000 );
 });
+
+
