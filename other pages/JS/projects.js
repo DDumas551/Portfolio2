@@ -3,6 +3,10 @@ $(document).ready(()=> {
         $(".nameCol").addClass("nameColOnLoad");
     }, 400 );
     setTimeout(() => {
-        $(".bottomRow").addClass("bottomRowOnLoad");
+        $(".fiveStarImg").addClass("fiveStarImgOnLoad");
     }, 1000 );
+    setTimeout(() => {
+        $(".bottomRow").addClass("bottomRowOnLoad");
+    }, 1250 );
 });
+

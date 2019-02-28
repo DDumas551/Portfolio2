@@ -69,26 +69,15 @@ p {
     transition-duration: 2.5s;
 }
 
-.knowledge1 {
-    font-family: regularFont;
-    color: rgba(255, 255, 255, 0);
-    font-size: 12px;
+.fiveStarImg {
+    max-width: 250px;
+    max-height: 250px;
+    opacity: 0.001;
 }
 
-.knowledge2 {
-    font-family: regularFont;
-    color: rgba(255, 255, 255, 0);
-    font-size: 12px;
-}
-
-.knowledgeOnLoad1 {
-    color: rgba(255, 255, 255, 0.999);
-    transition-duration: 1.5s;
-}
-
-.knowledgeOnLoad2 {
-    color: rgba(255, 255, 255, 0.999);
-    transition-duration: 1.5s;
+.fiveStarImgOnLoad {
+    opacity: 0.999;
+    transition-duration: 2.5s;
 }
 
 .bottomRow {
