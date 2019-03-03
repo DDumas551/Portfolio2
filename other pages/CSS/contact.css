@@ -91,6 +91,11 @@ p {
     transition-duration: 1.5s;
 }
 
+.pdfImg {
+    max-width: 200px;
+    max-height: 200px;
+}
+
 .bottomRow {
     color: rgba(255, 255, 255, 0);
     font-family: regularFont;
