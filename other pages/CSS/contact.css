@@ -32,6 +32,15 @@ p {
     padding: 15px;
 }
 
+.contactIcon {
+    color: rgba(255, 255, 255, 0);
+}
+
+.contactIconOnLoad {
+    color: rgba(255, 255, 255, 0.999);
+    transition-duration: 2s;
+}
+
 .contactBtn:hover {
     background-color: rgba(255, 255, 255, 0.096);
 }
@@ -56,39 +65,6 @@ p {
     color: rgba(255, 255, 255, 0.999)
 }
 
-.intro1 {
-    color: rgba(255, 255, 255, 0);
-    font-size: 13px;
-}
-
-.intro2 {
-    color: rgba(255, 255, 255, 0);
-    font-size: 13px;
-}
-
-.intro11 {
-    color: rgba(255, 255, 255, 0.999);
-    font-family: regularFont;
-    font-size: 13px;
-    transition-duration: 2.4s;
-}
-
-.intro22 {
-    color: rgba(255, 255, 255, 0.999);
-    font-family: regularFont;
-    font-size: 13px;
-    transition-duration: 2.4s;
-}
-
-.pdfImg {
-    opacity: 0.0;
-}
-
-.pdfImgOnLoad {
-    opacity: 0.999;
-    transition-duration: 2.2s;
-}
-
 .hr1 {
     top: 2vh;
     border-color: rgba(255, 255, 255, 0);
@@ -102,31 +78,17 @@ p {
     transition-duration: 2.5s;
 }
 
-.knowledge1 {
-    font-family: regularFont;
-    color: rgba(255, 255, 255, 0);
-    font-size: 12px;
+.hr3 {
+    top: 2vh;
+    border-color: rgba(255, 255, 255, 0);
+    max-width: 1vw;
 }
 
-.knowledge2 {
-    font-family: regularFont;
-    color: rgba(255, 255, 255, 0);
-    font-size: 12px;
-}
-
-.knowledgeOnLoad1 {
-    color: rgba(255, 255, 255, 0.999);
-    transition-duration: 1.5s;
-}
-
-.knowledgeOnLoad2 {
-    color: rgba(255, 255, 255, 0.999);
-    transition-duration: 1.5s;
-}
-
-.pdfImg {
-    max-width: 200px;
-    max-height: 200px;
+.hr4 {
+    top: 2vh;
+    border-color: rgba(255, 255, 255, 0.999);
+    max-width: 45vw;
+    transition-duration: 2.5s;
 }
 
 .bottomRow {
