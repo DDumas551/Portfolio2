@@ -36,6 +36,11 @@ p {
     color: rgba(255, 255, 255, 0);
 }
 
+.contactIcon:hover {
+    transform: rotateZ(720deg);
+    transition-duration: 0.9s !important; 
+}
+
 .contactIconOnLoad {
     color: rgba(255, 255, 255, 0.999);
     transition-duration: 2s;
@@ -77,6 +82,8 @@ p {
     max-width: 45vw;
     transition-duration: 2.5s;
 }
+
+
 
 .hr3 {
     top: 2vh;
