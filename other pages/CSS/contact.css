@@ -12,6 +12,21 @@ p {
     margin-bottom: 3rem;
 }
 
+.contactInvitation {
+    color: white;
+    font-family: regularFont;
+    opacity: 0.0;
+    font-size: 1px;
+}
+
+.contactInvitationOnLoad {
+    color: white;
+    font-family: regularFont;
+    opacity: 0.999;
+    font-size: 12px;
+    transition-duration: 2s;
+}
+
 .bodyContainer {
     border: 6px solid rgba(0, 0, 0, 0.726);
     background-color: rgba(0, 0, 0, 0.726);
@@ -54,6 +69,15 @@ p {
     font-family: regularFont;
     font-size: 13px;
     transition-duration: 2.4s;
+}
+
+.pdfImg {
+    opacity: 0.0;
+}
+
+.pdfImgOnLoad {
+    opacity: 0.999;
+    transition-duration: 2.2s;
 }
 
 .hr1 {
