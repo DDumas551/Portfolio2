@@ -16,7 +16,7 @@ p {
     color: white;
     font-family: regularFont;
     opacity: 0.0;
-    font-size: 1px;
+    font-size: 12px;
 }
 
 .contactInvitationOnLoad {
@@ -25,6 +25,15 @@ p {
     opacity: 0.999;
     font-size: 12px;
     transition-duration: 2s;
+}
+
+.contactBtn {
+    border: 1px solid white;
+    padding: 15px;
+}
+
+.contactBtn:hover {
+    background-color: rgba(255, 255, 255, 0.096);
 }
 
 .bodyContainer {
