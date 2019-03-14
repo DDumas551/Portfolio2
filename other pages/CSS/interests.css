@@ -32,30 +32,6 @@ p {
     color: rgba(255, 255, 255, 0.999)
 }
 
-.intro1 {
-    color: rgba(255, 255, 255, 0);
-    font-size: 13px;
-}
-
-.intro2 {
-    color: rgba(255, 255, 255, 0);
-    font-size: 13px;
-}
-
-.intro11 {
-    color: rgba(255, 255, 255, 0.999);
-    font-family: regularFont;
-    font-size: 13px;
-    transition-duration: 2.4s;
-}
-
-.intro22 {
-    color: rgba(255, 255, 255, 0.999);
-    font-family: regularFont;
-    font-size: 13px;
-    transition-duration: 2.4s;
-}
-
 .hr1 {
     top: 2vh;
     border-color: rgba(255, 255, 255, 0);
@@ -69,26 +45,25 @@ p {
     transition-duration: 2.5s;
 }
 
-.knowledge1 {
+.firstPhoto {
+    max-width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 10px 10px 5px rgba(53, 53, 53, 0.459);
+    radius
+}
+
+.cardColor {
+    background-color: rgba(0, 0, 0, 0.0);
+    border-color: rgba(0, 0, 0, 0.0);
+}
+
+.cardText {
+    color: rgba(255, 255, 255, 0.6);
     font-family: regularFont;
-    color: rgba(255, 255, 255, 0);
     font-size: 12px;
-}
-
-.knowledge2 {
-    font-family: regularFont;
-    color: rgba(255, 255, 255, 0);
-    font-size: 12px;
-}
-
-.knowledgeOnLoad1 {
-    color: rgba(255, 255, 255, 0.999);
-    transition-duration: 1.5s;
-}
-
-.knowledgeOnLoad2 {
-    color: rgba(255, 255, 255, 0.999);
-    transition-duration: 1.5s;
+    padding: 15px;
 }
 
 .bottomRow {
