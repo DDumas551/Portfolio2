@@ -76,7 +76,7 @@ p {
     font-family: regularFont;
     font-size: 12px;
     position: relative;
-    top: 1vh;
+    bottom: 1vh;
 }
 
 .bottomRowOnLoad {
