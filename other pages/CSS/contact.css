@@ -36,8 +36,18 @@ p {
     color: rgba(255, 255, 255, 0);
 }
 
-.contactIcon:hover {
+.contactIcon1:hover {
     transform: rotateZ(720deg);
+    transition-duration: 0.9s !important; 
+}
+
+.contactIcon2:hover {
+    transform: rotateX(720deg);
+    transition-duration: 0.9s !important; 
+}
+
+.contactIcon3:hover {
+    transform: rotateZ(-720deg);
     transition-duration: 0.9s !important; 
 }
 

@@ -83,3 +83,8 @@ p {
     color: rgba(255, 255, 255, 0.999);
     transition-duration: 1.5s;
 }
+
+.bottomContainer {
+    position: relative;
+    bottom: -300px;
+}
