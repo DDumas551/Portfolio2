@@ -86,5 +86,12 @@ p {
 
 .bottomContainer {
     position: relative;
-    bottom: -300px;
+    padding-top: 33vh;
+}
+
+@media only screen and (max-width: 1000px) {
+    .bottomContainer {
+        position: relative;
+        padding-top: 5vh;
+    }
 }
