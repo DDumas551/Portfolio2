@@ -42,7 +42,8 @@ p {
 }
 
 .contactIcon2:hover {
-    transform: rotateX(720deg);
+    /* transform: rotateX(720deg); */
+    transform: rotate3d(1, 1, 1, 1080deg);
     transition-duration: 0.9s !important; 
 }
 
