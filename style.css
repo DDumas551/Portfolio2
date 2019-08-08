@@ -51,8 +51,6 @@ p {
 .letter {
   font-family: profileFont;
   text-align: center;
-  -webkit-animation-name: nameLetter;
-  -webkit-animation-duration: 1.5s;
   animation: nameLetter 1.5s forwards;
   animation-timing-function: linear;
   animation-iteration-count: 1;
