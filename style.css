@@ -26,16 +26,36 @@ p {
   color: rgba(255, 255, 255, 0);
 }
 
+.nameRow {
+  padding-top: 75px;
+}
+
 .name {
   font-family: profileFont;
   color: white;
 }
 
+@keyframes nameLetter {
+  0% {
+    transform: rotate3d(1, 0, 0, -120deg);
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0);
+  }
+  100% {
+    transform: rotate3d(0, 0, 0, 0deg);
+    font-size: 25px;
+    color: white;
+  }
+}
+
 .letter {
-  color: white;
   font-family: profileFont;
   text-align: center;
-  font-size: 25px;
+  -webkit-animation-name: nameLetter;
+  -webkit-animation-duration: 1.5s;
+  animation: nameLetter 1.5s forwards;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
 }
 
 .nameColOnLoad {
