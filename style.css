@@ -30,106 +30,176 @@ p {
   padding-top: 75px;
 }
 
-.name {
+.letter {
   font-family: profileFont;
-  color: white;
+  text-align: center;
+  cursor: default;
+  font-size: 25px;
+  transition-duration: 3s;
+  animation: nameLetter 2s forwards;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
 }
 
 @keyframes nameLetter {
   0% {
-    transform: rotate3d(1, 0, 0, -120deg);
-    font-size: 20px;
+    /* transform: rotateX(-120deg); */
     color: rgba(255, 255, 255, 0);
   }
+
+  10% {
+    color: rgba(255, 255, 255, 0);
+  }
+
   100% {
-    transform: rotate3d(0, 0, 0, 0deg);
-    font-size: 25px;
+    /* transform: rotateX(0deg); */
     color: white;
   }
 }
 
-.letter {
-  font-family: profileFont;
-  text-align: center;
-  animation: nameLetter 1.5s forwards;
+.intro1 {
+  font-size: 13px;
+  font-family: regularFont;
+  color: rgba(0, 0, 0, 0);
+  animation: intro11 5s forwards;
   animation-timing-function: linear;
   animation-iteration-count: 1;
 }
 
-.nameColOnLoad {
-  letter-spacing: 40px;
-  transition-duration: 2.5s;
-  color: rgba(255, 255, 255, 0.999);
-}
-
-.intro1 {
-  color: rgba(255, 255, 255, 0);
-  font-size: 13px;
+@keyframes intro11 {
+  0% {
+    color: rgba(255, 255, 255, 0);
+  }
+  15% {
+    color: rgba(255, 255, 255, 0.1);
+  }
+  45% {
+    color: rgba(255, 255, 255, 0.999);
+  }
+  100% {
+    color: rgba(255, 255, 255, 0.999);
+  }
 }
 
 .intro2 {
-  color: rgba(255, 255, 255, 0);
   font-size: 13px;
+  font-family: regularFont;
+  color: rgba(0, 0, 0, 0);
+  animation: intro22 5s forwards;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
 }
 
-.intro11 {
-  color: rgba(255, 255, 255, 0.999);
-  font-family: regularFont;
-  font-size: 13px;
-  transition-duration: 2.4s;
-}
-
-.intro22 {
-  color: rgba(255, 255, 255, 0.999);
-  font-family: regularFont;
-  font-size: 13px;
-  transition-duration: 2.4s;
+@keyframes intro22 {
+  0% {
+    color: rgba(255, 255, 255, 0);
+  }
+  20% {
+    color: rgba(255, 255, 255, 0);
+  }
+  55% {
+    color: rgba(255, 255, 255, 0.999);
+  }
+  100% {
+    color: rgba(255, 255, 255, 0.999);
+  }
 }
 
 .hr1 {
   top: 2vh;
-  border-color: rgba(255, 255, 255, 0);
-  max-width: 1vw;
+  animation: hr2 5s forwards;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
 }
 
-.hr2 {
-  top: 2vh;
-  border-color: rgba(255, 255, 255, 0.999);
-  max-width: 45vw;
-  transition-duration: 2.5s;
+@keyframes hr2 {
+  0% {
+    border-color: rgba(255, 255, 255, 0);
+    max-width: 1vw;
+  }
+  22% {
+    border-color: rgba(255, 255, 255, 0);
+    max-width: 1vw;
+  }
+  90% {
+    border-color: rgba(255, 255, 255, 0.999);
+    max-width: 45vw;
+  }
+  100% {
+    border-color: rgba(255, 255, 255, 0.999);
+    max-width: 45vw;
+  }
 }
 
 .knowledge1 {
   font-family: regularFont;
   color: rgba(255, 255, 255, 0);
   font-size: 12px;
+  animation: knowledge11 5s forwards;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+
+@keyframes knowledge11 {
+  0% {
+    color: rgba(255, 255, 255, 0);
+  }
+  25% {
+    color: rgba(255, 255, 255, 0);
+  }
+  65% {
+    color: rgba(255, 255, 255, 0.999);
+  }
+  100% {
+    color: rgba(255, 255, 255, 0.999);
+  }
 }
 
 .knowledge2 {
   font-family: regularFont;
   color: rgba(255, 255, 255, 0);
   font-size: 12px;
+  animation: knowledge22 5s forwards;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
 }
 
-.knowledgeOnLoad1 {
-  color: rgba(255, 255, 255, 0.999);
-  transition-duration: 1.5s;
-}
-
-.knowledgeOnLoad2 {
-  color: rgba(255, 255, 255, 0.999);
-  transition-duration: 1.5s;
+@keyframes knowledge22 {
+  0% {
+    color: rgba(255, 255, 255, 0);
+  }
+  30% {
+    color: rgba(255, 255, 255, 0);
+  }
+  70% {
+    color: rgba(255, 255, 255, 0.999);
+  }
+  100% {
+    color: rgba(255, 255, 255, 0.999);
+  }
 }
 
 .bottomRow {
-  color: rgba(255, 255, 255, 0);
   font-family: regularFont;
+  color: rgba(255, 255, 255, 0);
   font-size: 12px;
-  position: relative;
+  animation: bottomRow 5s forwards;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
   top: 1vh;
 }
 
-.bottomRowOnLoad {
-  color: rgba(255, 255, 255, 0.999);
-  transition-duration: 1.5s;
+@keyframes bottomRow {
+  0% {
+    color: rgba(255, 255, 255, 0);
+  }
+  35% {
+    color: rgba(255, 255, 255, 0);
+  }
+  80% {
+    color: rgba(255, 255, 255, 0.999);
+  }
+  100% {
+    color: rgba(255, 255, 255, 0.999);
+  }
 }

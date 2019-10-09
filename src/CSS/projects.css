@@ -1,0 +1,168 @@
+@font-face {
+  font-family: profileFont;
+  src: url("./font/vonique-64/Vonique\ 64.ttf");
+}
+
+@font-face {
+  font-family: regularFont;
+  src: url("./font/Montserrat/Montserrat-Light.ttf");
+}
+
+/* a {
+  text-decoration: none;
+} */
+
+.nameCol {
+  margin-top: 17vh;
+  font-size: 39px;
+  font-family: profileFont;
+  letter-spacing: 100px;
+  color: rgba(255, 255, 255, 0);
+}
+
+.nameRow {
+  padding-top: 75px;
+}
+
+.name {
+  font-family: profileFont;
+  color: white;
+}
+
+@keyframes nameLetter {
+  0% {
+    transform: rotate3d(1, 0, 0, -120deg);
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0);
+  }
+
+  10% {
+    color: rgba(255, 255, 255, 0);
+  }
+
+  100% {
+    transform: rotate3d(0, 0, 0, 0deg);
+    font-size: 25px;
+    color: white;
+  }
+}
+
+@keyframes randoLetter {
+  0% {
+    transform: rotate3d(1, 0, 0, -120deg);
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0);
+  }
+
+  10% {
+    color: rgba(255, 255, 255, 0);
+  }
+
+  100% {
+    transform: rotate3d(0, 0, 0, 0deg);
+    font-size: 25px;
+    color: white;
+  }
+}
+
+.letter {
+  font-family: profileFont;
+  text-align: center;
+  animation: nameLetter 1.5s forwards;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+
+p {
+  margin-bottom: 3rem;
+}
+
+.bodyContainer {
+  border: 6px solid rgba(0, 0, 0, 0.726);
+  background-color: rgba(0, 0, 0, 0.726);
+  min-height: 100vh;
+}
+
+.makeNotBlue {
+  text-decoration: none;
+  color: white;
+}
+
+.nameCol {
+  margin-top: 17vh;
+  font-size: 39px;
+  font-family: profileFont;
+  letter-spacing: 100px;
+  color: rgba(255, 255, 255, 0);
+}
+
+.nameColOnLoad {
+  letter-spacing: 40px;
+  transition-duration: 2.5s;
+  color: rgba(255, 255, 255, 0.999);
+}
+
+.intro1 {
+  color: rgba(255, 255, 255, 0);
+  font-size: 13px;
+}
+
+.intro2 {
+  color: rgba(255, 255, 255, 0);
+  font-size: 13px;
+}
+
+.intro11 {
+  color: rgba(255, 255, 255, 0.999);
+  font-family: regularFont;
+  font-size: 13px;
+  transition-duration: 2.4s;
+}
+
+.intro22 {
+  color: rgba(255, 255, 255, 0.999);
+  font-family: regularFont;
+  font-size: 13px;
+  transition-duration: 2.4s;
+}
+
+.hr1 {
+  top: 2vh;
+  border-color: rgba(255, 255, 255, 0);
+  max-width: 1vw;
+}
+
+.hr2 {
+  top: 2vh;
+  border-color: rgba(255, 255, 255, 0.999);
+  max-width: 45vw;
+  transition-duration: 2.5s;
+}
+
+.fiveStarImg {
+  max-width: 250px;
+  max-height: 250px;
+  opacity: 0.001;
+}
+
+.fiveStarImgOnLoad {
+  opacity: 0.999;
+  transition-duration: 2.5s;
+}
+
+.projTitle {
+  font-size: 20px !important;
+}
+
+.bottomRow {
+  color: rgba(255, 255, 255, 0);
+  font-family: regularFont;
+  font-size: 12px;
+  position: relative;
+  top: 1vh;
+}
+
+.bottomRowOnLoad {
+  color: rgba(255, 255, 255, 0.999);
+  transition-duration: 1.5s;
+}
