@@ -24,6 +24,12 @@
   padding-top: 75px;
 }
 
+.backRow {
+  color: white;
+  text-decoration: none;
+  margin-top: 35px;
+}
+
 .name {
   font-family: profileFont;
   color: white;

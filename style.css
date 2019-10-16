@@ -8,10 +8,6 @@
   src: url("./font/Montserrat/Montserrat-Light.ttf");
 }
 
-p {
-  margin-bottom: 3rem;
-}
-
 .bodyContainer {
   border: 6px solid rgba(0, 0, 0, 0.726);
   background-color: rgba(0, 0, 0, 0.726);
@@ -27,7 +23,7 @@ p {
 }
 
 .nameRow {
-  padding-top: 75px;
+  padding-top: 6vh;
 }
 
 .letter {
@@ -61,12 +57,12 @@ p {
   font-size: 13px;
   font-family: regularFont;
   color: rgba(0, 0, 0, 0);
-  animation: intro11 5s forwards;
+  animation: intro1 5s forwards;
   animation-timing-function: linear;
   animation-iteration-count: 1;
 }
 
-@keyframes intro11 {
+@keyframes intro1 {
   0% {
     color: rgba(255, 255, 255, 0);
   }
@@ -81,38 +77,53 @@ p {
   }
 }
 
-.intro2 {
-  font-size: 13px;
-  font-family: regularFont;
-  color: rgba(0, 0, 0, 0);
-  animation: intro22 5s forwards;
-  animation-timing-function: linear;
-  animation-iteration-count: 1;
+.wdRow {
+  margin-top: 20px;
 }
 
-@keyframes intro22 {
-  0% {
-    color: rgba(255, 255, 255, 0);
-  }
-  20% {
-    color: rgba(255, 255, 255, 0);
-  }
-  55% {
-    color: rgba(255, 255, 255, 0.999);
-  }
-  100% {
-    color: rgba(255, 255, 255, 0.999);
-  }
+.contactBtn {
+  color: white;
+  font-family: regularFont;
+  font-size: 12px;
+  border: 1px solid white;
+  padding: 9px;
+}
+
+.contactIcon {
+  color: rgb(255, 255, 255);
+}
+
+.xyz {
+  max-width: 75%;
+  min-width: 240px;
+}
+.elrRow {
+  margin-top: 30px;
+}
+
+.underHR {
+  max-width: 500px;
+}
+
+.projectsRow {
+  margin: 30px;
+}
+.socialRow {
+  margin-top: 50px;
+}
+.contactRow {
+  max-width: 2000px;
+  margin-top: 10px;
 }
 
 .hr1 {
-  top: 2vh;
-  animation: hr2 5s forwards;
+  /* top: 2vh; */
+  animation: hr1 5s forwards;
   animation-timing-function: ease-in-out;
   animation-iteration-count: 1;
 }
 
-@keyframes hr2 {
+@keyframes hr1 {
   0% {
     border-color: rgba(255, 255, 255, 0);
     max-width: 1vw;
