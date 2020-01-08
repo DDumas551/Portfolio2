@@ -77,6 +77,25 @@
   }
 }
 
+@keyframes intro2 {
+  0% {
+    color: rgba(255, 255, 255, 0);
+    border: 1px solid rgba(255, 255, 255, 0);
+  }
+  15% {
+    color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  45% {
+    color: rgba(255, 255, 255, 0.999);
+    border: 1px solid rgba(255, 255, 255, 0.999);
+  }
+  100% {
+    color: rgba(255, 255, 255, 0.999);
+    border: 1px solid rgba(255, 255, 255, 0.999);
+  }
+}
+
 .wdRow {
   margin-top: 20px;
 }
@@ -87,21 +106,35 @@
   font-size: 12px;
   border: 1px solid white;
   padding: 9px;
+  animation: intro2 5s forwards;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
 }
 
 .contactIcon {
   color: rgb(255, 255, 255);
+  animation: socialFadeIn 5s forwards;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
 }
 
-.xyz {
-  max-width: 75%;
-  min-width: 240px;
+@keyframes socialFadeIn {
+  0% {
+    color: rgba(255, 255, 255, 0);
+  }
+  66% {
+    color: rgba(255, 255, 255, 0);
+  }
+  100% {
+    color: rgb(255, 255, 255);
+  }
 }
+
 .elrRow {
   margin-top: 30px;
 }
 
-.underHR {
+.deetsCol {
   max-width: 500px;
 }
 
@@ -117,7 +150,6 @@
 }
 
 .hr1 {
-  /* top: 2vh; */
   animation: hr1 5s forwards;
   animation-timing-function: ease-in-out;
   animation-iteration-count: 1;
@@ -139,54 +171,6 @@
   100% {
     border-color: rgba(255, 255, 255, 0.999);
     max-width: 45vw;
-  }
-}
-
-.knowledge1 {
-  font-family: regularFont;
-  color: rgba(255, 255, 255, 0);
-  font-size: 12px;
-  animation: knowledge11 5s forwards;
-  animation-timing-function: linear;
-  animation-iteration-count: 1;
-}
-
-@keyframes knowledge11 {
-  0% {
-    color: rgba(255, 255, 255, 0);
-  }
-  25% {
-    color: rgba(255, 255, 255, 0);
-  }
-  65% {
-    color: rgba(255, 255, 255, 0.999);
-  }
-  100% {
-    color: rgba(255, 255, 255, 0.999);
-  }
-}
-
-.knowledge2 {
-  font-family: regularFont;
-  color: rgba(255, 255, 255, 0);
-  font-size: 12px;
-  animation: knowledge22 5s forwards;
-  animation-timing-function: linear;
-  animation-iteration-count: 1;
-}
-
-@keyframes knowledge22 {
-  0% {
-    color: rgba(255, 255, 255, 0);
-  }
-  30% {
-    color: rgba(255, 255, 255, 0);
-  }
-  70% {
-    color: rgba(255, 255, 255, 0.999);
-  }
-  100% {
-    color: rgba(255, 255, 255, 0.999);
   }
 }
 
@@ -213,4 +197,19 @@
   100% {
     color: rgba(255, 255, 255, 0.999);
   }
+}
+
+.contactIcon1:hover {
+  transform: rotate(720deg);
+  transition-duration: 1.75s;
+}
+
+.contactIcon2:hover {
+  transform: rotateX(-720deg);
+  transition-duration: 1.75s;
+}
+
+.contactIcon3:hover {
+  transform: rotate(-720deg);
+  transition-duration: 1.75s;
 }
