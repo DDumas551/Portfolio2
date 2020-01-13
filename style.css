@@ -69,8 +69,14 @@
   0% {
     transform: matrix(1, 0, 0, 1, 2, 1);
   }
+  5% {
+    transform: matrix(1, 0, 0, 1, 3, 1);
+  }
   50% {
     transform: matrix(1, 0, 0, 1, 9, 1);
+  }
+  95% {
+    transform: matrix(1, 0, 0, 1, 3, 1);
   }
   100% {
     transform: matrix(1, 0, 0, 1, 2, 1);
@@ -133,6 +139,11 @@
   animation: intro2 5s forwards;
   animation-timing-function: linear;
   animation-iteration-count: 1;
+}
+
+.contactBtn:hover {
+  background-color: rgba(255, 255, 255, 0.04);
+  transition-duration: 1.5s;
 }
 
 .contactIcon {
