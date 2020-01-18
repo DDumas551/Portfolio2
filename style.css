@@ -62,7 +62,7 @@
 .iLikeToMoveIt {
   animation: moveIt 2.5s forwards;
   animation-timing-function: linear;
-  animation-iteration-count: 100;
+  animation-iteration-count: infinite;
   transform: matrix(1, 0, 0, 1, 1, 1);
 }
 @keyframes moveIt {
@@ -209,6 +209,10 @@
   }
 }
 
+.projTitle {
+  user-select: none;
+}
+
 .bottomRow {
   font-family: regularFont;
   color: rgba(255, 255, 255, 0);
@@ -217,6 +221,7 @@
   animation-timing-function: linear;
   animation-iteration-count: 1;
   top: 1vh;
+  user-select: none;
 }
 
 @keyframes bottomRow {
