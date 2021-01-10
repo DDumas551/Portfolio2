@@ -94,6 +94,10 @@ p {
   color: white;
 }
 
+.projectBox {
+  margin-bottom: 28px;
+}
+
 .nameCol {
   margin-top: 17vh;
   font-size: 39px;
@@ -171,4 +175,10 @@ p {
 .bottomRowOnLoad {
   color: rgba(255, 255, 255, 0.999);
   transition-duration: 1.5s;
+}
+
+.homeButton {
+  color: rgba(255, 255, 255, 0);
+  font-family: regularFont;
+  font-size: 12px;
 }

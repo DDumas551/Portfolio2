@@ -114,15 +114,15 @@
   }
   15% {
     color: rgba(255, 255, 255, 0.1);
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0);
   }
   45% {
     color: rgba(255, 255, 255, 0.999);
-    border: 1px solid rgba(255, 255, 255, 0.999);
+    border: 1px solid rgba(255, 255, 255, 0);
   }
   100% {
     color: rgba(255, 255, 255, 0.999);
-    border: 1px solid rgba(255, 255, 255, 0.999);
+    border: 1px solid rgba(255, 255, 255, 0.155);
   }
 }
 
@@ -134,16 +134,16 @@
   color: white;
   font-family: regularFont;
   font-size: 12px;
-  border: 1px solid white;
+  border-radius: 3px;
   padding: 9px;
   animation: intro2 5s forwards;
   animation-timing-function: linear;
   animation-iteration-count: 1;
+  transition: background-color 1.5s;
 }
 
 .contactBtn:hover {
   background-color: rgba(255, 255, 255, 0.04);
-  transition-duration: 1.5s;
 }
 
 .contactIcon {
