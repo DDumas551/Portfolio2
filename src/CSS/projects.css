@@ -182,3 +182,15 @@ p {
   font-family: regularFont;
   font-size: 12px;
 }
+
+.linkTo {
+  text-decoration: none;
+  color: white;
+  /* border: 1px solid rgba(255, 255, 255, 0.233); */
+  /* padding: 8px; */
+}
+
+.linkTo:hover {
+  color: white;
+  text-decoration: none;
+}
