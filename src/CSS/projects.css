@@ -8,9 +8,11 @@
   src: url("./font/Montserrat/Montserrat-Light.ttf");
 }
 
-/* a {
-  text-decoration: none;
-} */
+.bodyContainer {
+  border: 6px solid rgba(0, 0, 0, 0.726);
+  background-color: rgba(0, 0, 0, 0.726);
+  min-height: 100vh;
+}
 
 .nameCol {
   margin-top: 17vh;
@@ -77,16 +79,6 @@
   animation: nameLetter 1.5s forwards;
   animation-timing-function: linear;
   animation-iteration-count: 1;
-}
-
-p {
-  margin-bottom: 3rem;
-}
-
-.bodyContainer {
-  border: 6px solid rgba(0, 0, 0, 0.726);
-  background-color: rgba(0, 0, 0, 0.726);
-  min-height: 100vh;
 }
 
 .makeNotBlue {
@@ -164,33 +156,11 @@ p {
   font-size: 20px !important;
 }
 
-.bottomRow {
+.home-link {
   color: rgba(255, 255, 255, 0);
   font-family: regularFont;
   font-size: 12px;
-  position: relative;
-  top: 1vh;
-}
-
-.bottomRowOnLoad {
-  color: rgba(255, 255, 255, 0.999);
-  transition-duration: 1.5s;
-}
-
-.homeButton {
-  color: rgba(255, 255, 255, 0);
-  font-family: regularFont;
-  font-size: 12px;
-}
-
-.linkTo {
-  text-decoration: none;
-  color: white;
-  /* border: 1px solid rgba(255, 255, 255, 0.233); */
-  /* padding: 8px; */
-}
-
-.linkTo:hover {
-  color: white;
-  text-decoration: none;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
 }

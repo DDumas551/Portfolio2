@@ -8,10 +8,105 @@
   src: url("./font/Montserrat/Montserrat-Light.ttf");
 }
 
+@media (min-width: 5px) {
+  .bodyContainer {
+    padding-top: 30px;
+  }
+  .second-container {
+    padding-bottom: 68px;
+  }
+  .nameRow {
+    margin: 1px 0px 0px 0px;
+  }
+  .contact-button {
+    margin: 1.5% auto;
+    width: 200px;
+  }
+  .exp-block {
+    margin: 10px 0px 0px 0px;
+  }
+  .social-row {
+    margin: 14px auto;
+  }
+}
+
+@media (min-width: 576px) {
+  .contact-button {
+    width: 250px;
+    margin: 1.5% auto;
+  }
+  .exp-block {
+    margin: 10px 0px 0px 0px;
+  }
+  .social-row {
+    margin: 14px auto;
+    position: sticky;
+    bottom: 0px;
+  }
+}
+
+@media (min-width: 768px) {
+  .contact-button {
+    margin: 1.5% auto;
+    width: 250px;
+  }
+  .exp-block {
+    margin: 10px 0px 0px 0px;
+  }
+  .social-row {
+    margin: 14px auto;
+  }
+}
+
+@media (min-width: 992px) {
+  .contact-button {
+    margin: 1.5% auto;
+    width: 200px;
+  }
+  .exp-block {
+    margin: 20px 0px 0px 0px;
+  }
+  .social-row {
+    margin: 14px 0px;
+    position: sticky;
+  }
+}
+
+@media (min-width: 1200px) {
+  .bodyContainer {
+    padding-top: 50px;
+  }
+  .contact-button {
+    margin: 2% auto;
+  }
+  .exp-block {
+    margin: 30px 0px 0px 0px;
+  }
+  .social-row {
+    margin: 14px auto;
+  }
+}
+
 .bodyContainer {
-  border: 6px solid rgba(0, 0, 0, 0.726);
+  border: 1px solid rgba(0, 0, 0, 0.726);
   background-color: rgba(0, 0, 0, 0.726);
   min-height: 100vh;
+  overflow: auto;
+  display: block;
+}
+
+.social-row {
+  position: fixed;
+  bottom: -13px;
+  width: 100%;
+  left: 0px;
+  background-color: rgb(0, 0, 0);
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+
+.second-container {
+  height: 100%;
 }
 
 .nameCol {
@@ -23,7 +118,6 @@
 }
 
 .nameRow {
-  padding-top: 6vh;
   min-height: 109px;
 }
 
@@ -62,6 +156,11 @@
   user-select: none;
 }
 
+.job-title {
+  font-size: 18px;
+  margin: 13px 0px 3px 0px;
+}
+
 @keyframes pagetext {
   0% {
     color: rgba(255, 255, 255, 0);
@@ -77,9 +176,7 @@
 }
 
 .projects-row {
-  margin-top: 10px;
-  margin-bottom: 11px;
-
+  margin: 25px 0px;
 }
 
 .projects-link {
@@ -95,11 +192,6 @@
 .projects-link:hover {
   text-decoration: none;
   color: white;
-}
-
-.exp-block {
-  margin-top: 9px;
-  margin-bottom: 7px;
 }
 
 .pushOver {
@@ -131,67 +223,23 @@
   }
 }
 
-.intro1 {
-  font-size: 13px;
-  font-family: regularFont;
-  color: rgba(0, 0, 0, 0);
-  animation: intro1 5s forwards;
-  animation-timing-function: linear;
-  animation-iteration-count: 1;
-}
-
-@keyframes intro1 {
-  0% {
-    color: rgba(255, 255, 255, 0);
-  }
-  15% {
-    color: rgba(255, 255, 255, 0.1);
-  }
-  45% {
-    color: rgba(255, 255, 255, 0.999);
-  }
-  100% {
-    color: rgba(255, 255, 255, 0.999);
-  }
-}
-
-@keyframes intro2 {
-  0% {
-    color: rgba(255, 255, 255, 0);
-    border: 1px solid rgba(255, 255, 255, 0);
-  }
-  15% {
-    color: rgba(255, 255, 255, 0.1);
-    border: 1px solid rgba(255, 255, 255, 0);
-  }
-  45% {
-    color: rgba(255, 255, 255, 0.999);
-    border: 1px solid rgba(255, 255, 255, 0);
-  }
-  100% {
-    color: rgba(255, 255, 255, 0.999);
-    border: 1px solid rgba(255, 255, 255, 0.155);
-  }
-}
-
-.wdRow {
-  margin-top: 20px;
-}
-
-.contactBtn {
+.contact-button {
   color: white;
   font-family: regularFont;
   font-size: 12px;
   border-radius: 3px;
+  border: 1px solid rgba(255, 255, 255, 0);
   padding: 9px;
-  animation: intro2 5s forwards;
+  text-decoration: none;
+  animation: contactbutton 3s forwards;
   animation-timing-function: linear;
   animation-iteration-count: 1;
   transition: background-color 1.5s;
 }
 
-.contactBtn:hover {
+.contact-button:hover {
   background-color: rgba(255, 255, 255, 0.04);
+  text-decoration: none;
 }
 
 .contactIcon {
@@ -199,6 +247,21 @@
   animation: socialFadeIn 5s forwards;
   animation-timing-function: linear;
   animation-iteration-count: 1;
+}
+
+@keyframes contactbutton {
+  0% {
+    color: rgba(255, 255, 255, 0);
+    border: 1px solid rgba(255, 255, 255, 0);
+  }
+  66% {
+    color: rgba(255, 255, 255, 0);
+    border: 1px solid rgba(255, 255, 255, 0);
+  }
+  100% {
+    color: rgb(255, 255, 255);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+  }
 }
 
 @keyframes socialFadeIn {
