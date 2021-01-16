@@ -8,69 +8,68 @@
   src: url("./font/Montserrat/Montserrat-Light.ttf");
 }
 
+@media (min-width: 5px) {
+  .project-title {
+  }
+  .project-image {
+  }
+  .project-description {
+  }
+}
+
+@media (min-width: 576px) {
+  .project-title {
+  }
+  .project-image {
+  }
+  .project-description {
+  }
+}
+
+@media (min-width: 768px) {
+  .project-title {
+  }
+  .project-image {
+  }
+  .project-description {
+  }
+}
+
+@media (min-width: 992px) {
+  .projects-page-title {
+    font-size: 25px;
+    margin: 25px 0px;
+  }
+  .project-title {
+  }
+  .project-image {
+  }
+  .project-description {
+  }
+}
+
+@media (min-width: 1200px) {
+  .projects-page-title {
+    font-size: 25px;
+    margin: 30px 0px;
+  }
+  .project-title {
+  }
+  .project-image {
+  }
+  .project-description {
+  }
+}
+
 .bodyContainer {
-  border: 6px solid rgba(0, 0, 0, 0.726);
+  border: 1px solid rgba(0, 0, 0, 0.726);
   background-color: rgba(0, 0, 0, 0.726);
   min-height: 100vh;
 }
 
-.nameCol {
-  margin-top: 17vh;
-  font-size: 39px;
-  font-family: profileFont;
-  letter-spacing: 100px;
-  color: rgba(255, 255, 255, 0);
-}
-
-.nameRow {
-  padding-top: 75px;
-}
-
-.backRow {
-  color: white;
-  text-decoration: none;
-  margin-top: 35px;
-}
-
-.name {
-  font-family: profileFont;
-  color: white;
-}
-
-@keyframes nameLetter {
-  0% {
-    transform: rotate3d(1, 0, 0, -120deg);
-    font-size: 20px;
-    color: rgba(255, 255, 255, 0);
-  }
-
-  10% {
-    color: rgba(255, 255, 255, 0);
-  }
-
-  100% {
-    transform: rotate3d(0, 0, 0, 0deg);
-    font-size: 25px;
-    color: white;
-  }
-}
-
-@keyframes randoLetter {
-  0% {
-    transform: rotate3d(1, 0, 0, -120deg);
-    font-size: 20px;
-    color: rgba(255, 255, 255, 0);
-  }
-
-  10% {
-    color: rgba(255, 255, 255, 0);
-  }
-
-  100% {
-    transform: rotate3d(0, 0, 0, 0deg);
-    font-size: 25px;
-    color: white;
-  }
+.name-row {
+  font-size: 30px;
+  margin-top: 25px;
 }
 
 .letter {
@@ -81,86 +80,78 @@
   animation-iteration-count: 1;
 }
 
-.makeNotBlue {
-  text-decoration: none;
+@keyframes nameLetter {
+  0% {
+    color: rgba(255, 255, 255, 0);
+  }
+
+  10% {
+    color: rgba(255, 255, 255, 0);
+  }
+
+  100% {
+    color: white;
+  }
+}
+
+.projects-page-title {
+  color: white;
+  font-family: regularFont;
+}
+
+.project-container {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+.project-title {
+  color: white;
+  margin: 10px auto;
+  font-size: 20px;
+  cursor: default;
+  font-family: regularFont;
+}
+
+.project-link {
+  margin: auto;
   color: white;
 }
 
-.projectBox {
-  margin-bottom: 28px;
+.project-link:hover {
+  color: white;
+  text-decoration: none;
 }
 
-.nameCol {
-  margin-top: 17vh;
-  font-size: 39px;
-  font-family: profileFont;
-  letter-spacing: 100px;
-  color: rgba(255, 255, 255, 0);
-}
-
-.nameColOnLoad {
-  letter-spacing: 40px;
-  transition-duration: 2.5s;
-  color: rgba(255, 255, 255, 0.999);
-}
-
-.intro1 {
-  color: rgba(255, 255, 255, 0);
-  font-size: 13px;
-}
-
-.intro2 {
-  color: rgba(255, 255, 255, 0);
-  font-size: 13px;
-}
-
-.intro11 {
-  color: rgba(255, 255, 255, 0.999);
-  font-family: regularFont;
-  font-size: 13px;
-  transition-duration: 2.4s;
-}
-
-.intro22 {
-  color: rgba(255, 255, 255, 0.999);
-  font-family: regularFont;
-  font-size: 13px;
-  transition-duration: 2.4s;
-}
-
-.hr1 {
-  top: 2vh;
-  border-color: rgba(255, 255, 255, 0);
-  max-width: 1vw;
-}
-
-.hr2 {
-  top: 2vh;
-  border-color: rgba(255, 255, 255, 0.999);
-  max-width: 45vw;
-  transition-duration: 2.5s;
-}
-
-.fiveStarImg {
+.project-image {
   max-width: 250px;
-  max-height: 250px;
-  opacity: 0.001;
+  margin: auto;
+  box-shadow: 7px 3px 15px rgb(0, 0, 0, 0.4);
 }
 
-.fiveStarImgOnLoad {
-  opacity: 0.999;
-  transition-duration: 2.5s;
-}
-
-.projTitle {
-  font-size: 20px !important;
+.project-description {
+  color: white;
+  max-width: 100%;
+  margin: auto;
+  cursor: default;
 }
 
 .home-link {
-  color: rgba(255, 255, 255, 0);
-  font-family: regularFont;
   font-size: 12px;
   position: fixed;
   bottom: 0px;
   width: 100%;
+  background-color: black;
+  padding-top: 3px;
+}
+
+.home-button {
+  font-family: regularFont;
+  color: white;
+  text-decoration: none;
+}
+
+.home-button:hover {
+  color: white;
+  text-decoration: none;
 }

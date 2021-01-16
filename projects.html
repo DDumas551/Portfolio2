@@ -17,7 +17,7 @@
   </head>
   <body>
     <div class="container-fluid bodyContainer">
-      <div class="row nameRow justify-content-center">
+      <div class="row name-row justify-content-center">
         <div class="col-12 col-sm-12 col-md-6">
           <div class="row">
             <div class="col letter">D</div>
@@ -39,13 +39,77 @@
       </div>
       <div class="container">
         <div class="row">
-          <div class="col-12">
-            <div class="title"></div>
+          <div class="col text-center projects-page-title">Projects</div>
+        </div>
+        <div class="row">
+          <div class="col project-container">
+            <div class="project-title">Cistercian Symbols</div>
+            <a
+              class="project-link"
+              href="focused-bartik-9cafdf.netlify.app"
+              target="_blank"
+            >
+              <img
+                class="project-image"
+                src="/src/Photos/CistercianNumerals.jpg"
+                alt="Cistercian Numerals"
+              />
+            </a>
+            <div class="project-description">Built in React using Hooks</div>
+            <a
+              href="https://github.com/DDumas551/CistercianNums"
+              class="project-link"
+              >View the code</a
+            >
+          </div>
+          <div class="col project-container">
+            <div class="project-title">Dissolved Solids</div>
+            <p
+              class="project-link"
+              href="https://github.com/DDumas551/DissolvedSolids"
+              target="_blank"
+            >
+              <img
+                class="project-image"
+                src="/src/Photos/DS.jpg"
+                alt="Cistercian Numerals"
+              />
+            </p>
+            <div class="project-description">
+              Built in React with Router | Under Construction
+            </div>
+            <a
+              href="https://github.com/DDumas551/CistercianNums"
+              class="project-link"
+              >View the code</a
+            >
+          </div>
+        </div>
+        <div class="row">
+          <div class="col text-center projects-page-title">Certificates</div>
+        </div>
+        <div class="row">
+          <div class="col project-container">
+            <div class="project-title">Modern React</div>
             <img
-              class="image"
-              src="/src/Photos/CistercianNumerals.jpg"
+              class="project-image"
+              src="/src/Photos/UdemyModernReact.jpg"
               alt="Cistercian Numerals"
             />
+            <div class="project-description text-center">
+              Hooks, Props, State Management , JSS, Material UI, Design Patterns
+            </div>
+          </div>
+          <div class="col project-container">
+            <div class="project-title">JS Algorithms and Data Structures</div>
+            <img
+              class="project-image"
+              src="/src/Photos/DataStructuresAlgs.jpg"
+              alt="Cistercian Numerals"
+            />
+            <div class="project-description">
+              Big O, Recursion, Searching/Sorting Algorithms
+            </div>
           </div>
         </div>
         <!-- <div class="row">
@@ -126,11 +190,8 @@
       </div>
       <div class="row home-link">
         <div class="col text-center">
-          <a href="./index.html">
-            <p class="backRow">
-              <i class="fa fa-arrow-right iLikeToMoveIt" aria-hidden="true"></i>
-              home
-            </p>
+          <a href="./index.html" class="home-button">
+            <p>home</p>
           </a>
         </div>
       </div>
