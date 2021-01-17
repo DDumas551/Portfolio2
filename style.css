@@ -12,6 +12,9 @@
   .bodyContainer {
     padding-top: 30px;
   }
+  .job-title{
+    margin: 25px 0px 5px 0px;
+  }
   .second-container {
     padding-bottom: 68px;
   }
@@ -25,18 +28,30 @@
   .exp-block {
     margin: 10px 0px 0px 0px;
   }
+  .projects-row {
+    margin: 35px 0px;
+  }
   .social-row {
     margin: 14px auto;
   }
 }
 
 @media (min-width: 576px) {
+  .job-title {
+    margin: 30px 0px;
+  }
   .contact-button {
     width: 250px;
     margin: 1.5% auto;
   }
   .exp-block {
-    margin: 10px 0px 0px 0px;
+    margin: 15px 0px 0px 0px;
+  }
+  .projects-row {
+    margin: 35px 0px;
+  }
+  .contact-row {
+    margin: 0px 0px;
   }
   .social-row {
     margin: 14px auto;
@@ -46,35 +61,62 @@
 }
 
 @media (min-width: 768px) {
+  .job-title {
+    margin: 30px 0px;
+  }
+  .nameRow {
+    margin: 15px 0px 50px 0px;
+  }
   .contact-button {
     margin: 1.5% auto;
     width: 250px;
   }
   .exp-block {
-    margin: 10px 0px 0px 0px;
+    margin: 20px 0px 0px 0px;
   }
   .social-row {
     margin: 14px auto;
   }
+  .projects-row {
+    margin: 35px 0px;
+  }
+  .contact-row {
+    margin: 0px 0px;
+  }
 }
 
 @media (min-width: 992px) {
+  .job-title {
+    margin: 30px 0px;
+  }
+  .nameRow {
+    margin: 15px 0px 70px 0px;
+  }
   .contact-button {
     margin: 1.5% auto;
     width: 200px;
   }
   .exp-block {
-    margin: 20px 0px 0px 0px;
+    margin: 25px 0px 0px 0px;
   }
   .social-row {
     margin: 14px 0px;
     position: sticky;
+  }
+  .projects-row {
+    margin: 45px 0px;
+  }
+  .contact-row {
+    margin: 60px 0px;
   }
 }
 
 @media (min-width: 1200px) {
   .bodyContainer {
     padding-top: 50px;
+  }
+  .nameRow {
+    margin: 15px 0px 70px 0px;
   }
   .contact-button {
     margin: 2% auto;
@@ -84,6 +126,12 @@
   }
   .social-row {
     margin: 14px auto;
+  }
+  .projects-row {
+    margin: 45px 0px;
+  }
+  .contact-row {
+    margin: 60px 0px;
   }
 }
 
@@ -97,7 +145,7 @@
 
 .social-row {
   position: fixed;
-  bottom: -13px;
+  bottom: -14px;
   width: 100%;
   left: 0px;
   background-color: rgb(0, 0, 0);
@@ -107,18 +155,6 @@
 
 .second-container {
   height: 100%;
-}
-
-.nameCol {
-  margin-top: 17vh;
-  font-size: 39px;
-  font-family: profileFont;
-  letter-spacing: 100px;
-  color: rgba(255, 255, 255, 0);
-}
-
-.nameRow {
-  min-height: 109px;
 }
 
 .letter {
@@ -158,7 +194,6 @@
 
 .job-title {
   font-size: 18px;
-  margin: 13px 0px 3px 0px;
 }
 
 @keyframes pagetext {
@@ -173,10 +208,6 @@
   100% {
     color: white;
   }
-}
-
-.projects-row {
-  margin: 25px 0px;
 }
 
 .projects-link {
