@@ -22,7 +22,7 @@
   }
   .project-description {
   }
-  .last-element{
+  .last-element {
     padding-bottom: 62px;
   }
 }
@@ -68,7 +68,7 @@
 
 @media (min-width: 1200px) {
   .projects-page-title {
-    font-size: 25px;
+    font-size: 40px;
     margin: 30px 0px;
   }
   .project-title {
@@ -155,6 +155,11 @@
   max-width: 100%;
   margin: 7px auto 0px auto;
   cursor: default;
+}
+
+.certificates {
+  color: white;
+  margin-bottom: 60px;
 }
 
 .home-link {
