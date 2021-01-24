@@ -11,7 +11,7 @@
 @media (min-width: 5px) {
   .projects-page-title {
     font-size: 40px;
-    margin: 25px 0px;
+    margin: 30px 0px 40px 0px;
   }
   .project-container {
     margin: 20px 0px;
@@ -21,9 +21,6 @@
   .project-image {
   }
   .project-description {
-  }
-  .last-element {
-    padding-bottom: 62px;
   }
 }
 
@@ -118,6 +115,7 @@
   text-decoration: underline;
   text-underline-offset: 17px;
   text-decoration-thickness: from-font;
+  /* margin-bottom: 20px; */
 }
 
 .project-container {
@@ -160,6 +158,21 @@
 .certificates {
   color: white;
   margin-bottom: 60px;
+}
+
+.cert-title {
+  font-weight: 500;
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+
+.cert-desc {
+  color: rgb(172, 172, 172);
+}
+
+.cert-material {
+  font-weight: 100;
+  font-size: large;
 }
 
 .home-link {
