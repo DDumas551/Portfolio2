@@ -12,7 +12,7 @@
   .bodyContainer {
     padding-top: 30px;
   }
-  .job-title{
+  .job-title {
     margin: 25px 0px 5px 0px;
   }
   .second-container {
@@ -29,10 +29,14 @@
     margin: 10px 0px 0px 0px;
   }
   .projects-row {
-    margin: 35px 0px;
+    position: fixed;
+    bottom: 0px;
+    padding: 10px 0px 10px 0px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
   }
   .social-row {
-    margin: 14px auto;
+    margin: 0px auto;
   }
 }
 
@@ -47,14 +51,11 @@
   .exp-block {
     margin: 15px 0px 0px 0px;
   }
-  .projects-row {
-    margin: 35px 0px;
-  }
   .contact-row {
     margin: 0px 0px;
   }
   .social-row {
-    margin: 14px auto;
+    margin: 0px auto;
     position: sticky;
     bottom: 0px;
   }
@@ -77,9 +78,6 @@
   .social-row {
     margin: 14px auto;
   }
-  .projects-row {
-    margin: 35px 0px;
-  }
   .contact-row {
     margin: 0px 0px;
   }
@@ -101,10 +99,6 @@
   }
   .social-row {
     margin: 14px 0px;
-    position: sticky;
-  }
-  .projects-row {
-    margin: 45px 0px;
   }
   .contact-row {
     margin: 60px 0px;
@@ -127,9 +121,6 @@
   .social-row {
     margin: 14px auto;
   }
-  .projects-row {
-    margin: 45px 0px;
-  }
   .contact-row {
     margin: 60px 0px;
   }
@@ -144,11 +135,7 @@
 }
 
 .social-row {
-  position: fixed;
-  bottom: -14px;
-  width: 100%;
   left: 0px;
-  background-color: rgb(0, 0, 0);
   padding-top: 13px;
   padding-bottom: 13px;
 }
