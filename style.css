@@ -25,6 +25,11 @@
     margin: 1.5% auto;
     width: 200px;
   }
+
+  .contact-row {
+    margin: 20px 0px 0px 0px;
+  }
+
   .exp-block {
     margin: 10px 0px 0px 0px;
   }
@@ -36,7 +41,7 @@
     background-color: rgb(0, 0, 0);
   }
   .social-row {
-    margin: 0px auto;
+    margin: 24px auto 0px auto;
   }
 }
 
@@ -52,12 +57,10 @@
     margin: 15px 0px 0px 0px;
   }
   .contact-row {
-    margin: 0px 0px;
+    margin: 30px 0px 0px 0px;
   }
   .social-row {
-    margin: 0px auto;
-    position: sticky;
-    bottom: 0px;
+    margin: 44px auto 0px auto;
   }
 }
 
@@ -75,11 +78,8 @@
   .exp-block {
     margin: 20px 0px 0px 0px;
   }
-  .social-row {
-    margin: 14px auto;
-  }
   .contact-row {
-    margin: 0px 0px;
+    margin: 20px 0px 0px 0px;
   }
 }
 
@@ -98,7 +98,6 @@
     margin: 25px 0px 0px 0px;
   }
   .social-row {
-    margin: 14px 0px;
   }
   .contact-row {
     margin: 60px 0px;
@@ -119,7 +118,6 @@
     margin: 30px 0px 0px 0px;
   }
   .social-row {
-    margin: 14px auto;
   }
   .contact-row {
     margin: 60px 0px;
@@ -134,12 +132,6 @@
   display: block;
 }
 
-.social-row {
-  left: 0px;
-  padding-top: 13px;
-  padding-bottom: 13px;
-}
-
 .second-container {
   height: 100%;
 }
@@ -150,7 +142,7 @@
   cursor: default;
   font-size: 25px;
   transition-duration: 3s;
-  animation: nameLetter 2s forwards;
+  animation: pagetext 2s forwards;
   animation-timing-function: ease-in-out;
   animation-iteration-count: 1;
 }
