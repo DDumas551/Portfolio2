@@ -154,7 +154,7 @@
 .home-link {
   position: fixed;
   bottom: 0px;
-  left: -0.5vw;
+  /* left: -0.5vw; */
   width: 101vw;
   background-color: black;
   padding-top: 15px;
